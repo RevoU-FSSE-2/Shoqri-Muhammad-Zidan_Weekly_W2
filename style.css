@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #DDE6ED;
+}
+
+nav {
+    position: fixed;
+    background-color: #DDE6ED;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+nav > span > img {
+    height: 60px;
+    padding: 0px 20px;
+}
+
+nav > span > p {
+    padding: 0px 0px 0px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav > span {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("New\ Jeans\ OMG\ Landscape\ Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px black;
+}
+  
+header p {
+    font-size: 20px;
+    margin-top: -15px;
+    text-shadow: 2px 2px 4px black; 
+}  
+
+h2 {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+   
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.grid-container img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.grid-container p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#newjeans-facts {
+  text-align: center;
+  font-size: 16px;
+}
+
+#newjeans-facts .flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 65px 0px 50px;
+}
+
+#newjeans-facts .flex-container ul {
+  list-style: decimal;
+}
+
+#newjeans-facts .flex-container ul li {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#newjeans-facts .flex-container img {
+  width: 50%;
+}
+
+#section-video {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#section-video .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#section-video .video-container {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #27374D;
+  padding: 10px 0 30px;
+}
+
+#form-section h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#form-section form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 550px;
+  margin: 10px;
+  padding: 4px 4px;
+  resize: vertical;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #DDE6ED;
+  color: #27374D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #526D82;
+}
+
+button:active {
+  background-color: #526D82;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 1px;
+}
+
+footer {
+    font-size: 10px;
+    color: white;
+    background-color: #27374D;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 16px;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  
+  #photo-1 img,
+  #photo-2 img,
+  #photo-3 img,
+  #photo-4 img,
+  #photo-5 img {
+    width: 100%;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  figure img {
+    width: 100%;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 200px;
+  }
+  
+  #form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="radio"],
+  textarea,
+  input[type="file"] {
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+  }
+}
