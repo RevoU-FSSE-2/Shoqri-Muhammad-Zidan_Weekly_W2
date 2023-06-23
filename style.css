@@ -98,7 +98,7 @@ h2 {
 #newjeans-facts .flex-container {
   display: flex;
   flex-direction: column;
-  margin: 0px 65px 0px 50px;
+  margin: 0px 85px 0px 40px;
 }
 
 #newjeans-facts .flex-container ul {
@@ -111,7 +111,8 @@ h2 {
 }
 
 #newjeans-facts .flex-container img {
-  width: 50%;
+  width: 100%;
+  margin: 0 0 0 25px;
 }
 
 #section-video {
@@ -203,6 +204,11 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+
+  header {
+    height: 350px;
+  } 
+
   header h1 {
     font-size: 24px;
   }
@@ -213,6 +219,7 @@ footer {
   
   .grid-container {
     grid-template-columns: 1fr;
+    flex-direction: column;
   }
   
   #photo-1 img,
@@ -229,7 +236,7 @@ footer {
   }
   
   figure img {
-    width: 100%;
+    height: 100%;
   }
   
   .video-container iframe {
@@ -241,6 +248,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 25px;
   }
   
   input[type="text"],
@@ -248,7 +256,7 @@ footer {
   input[type="radio"],
   textarea,
   input[type="file"] {
-    width: 100%;
+    width: 50%;
   }
   
   button[type="submit"] {
