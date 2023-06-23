@@ -98,7 +98,7 @@ h2 {
 #newjeans-facts .flex-container {
   display: flex;
   flex-direction: column;
-  margin: 0px 85px 0px 40px;
+  margin: 0px 50px 0px 20px;
 }
 
 #newjeans-facts .flex-container ul {
@@ -235,6 +235,8 @@ footer {
     align-items: center;
   }
   
+  }
+
   figure img {
     height: 100%;
   }
@@ -253,13 +255,15 @@ footer {
   
   input[type="text"],
   input[type="email"],
-  input[type="radio"],
   textarea,
   input[type="file"] {
     width: 50%;
+  }
+
+  input[type="radio"] {
+    width: 5%;
   }
   
   button[type="submit"] {
     width: 100%;
   }
-}
