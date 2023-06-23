@@ -33,7 +33,3 @@ This website was created by Shoqri Zidan as a fan project and is not an official
 
 ## Disclaimer
 This is a fan-made website created for personal use and does not represent the official views or opinions of NewJeans or their management.
-
----
-
-This README.md file provides an overview of the New Jeans Bunnies website, its sections, and its purpose. Feel free to customize it further based on your project's specific details.
